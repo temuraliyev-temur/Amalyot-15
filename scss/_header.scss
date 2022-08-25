@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contenir {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+header {
+  background-image: url(../css/img/IMAGE\\(10\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header__inner {
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 520px;
+    margin-top: 32px;
+  }
+  .nav__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 57px;
+    margin-top: 32px;
+  }
+  .nav__link {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    width: 49px;
+    color: #ffffff;
+  }
+  .btn {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 17px 20px;
+    background-color: #ff4d01;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    color: #ffffff;
+    &:hover {
+      background-color: #343434;
+    }
+  }
+}
+
+.middle {
+  text-align: center;
+  padding: 252px 113px;
+  margin-left: 100px;
+
+  .middle-title {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 84px;
+    width: 660px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .middle-subtitle {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    width: 640px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .btn {
+    padding: 17px 20px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: #ff4d01;
+    border: none;
+    border-radius: ;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+  }
+}

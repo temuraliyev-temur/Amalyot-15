@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contenir {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-image: url(./img/IMAGE\\(10\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header__inner .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 520px;
+  margin-top: 32px;
+}
+.header__inner .nav__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 57px;
+  margin-top: 32px;
+}
+.header__inner .nav__link {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  width: 49px;
+  opacity: 0.8;
+  color: #ffffff;
+}
+.header__inner .btn {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  padding: 17px 20px;
+  background-color: #ff4d01;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  color: #ffffff;
+}
+.header__inner .btn:hover {
+  background-color: #34343499;
+}
+
+.middle {
+  text-align: center;
+  padding: 200px 100px;
+}
+.middle-btn {
+  margin-right: 100px;
+}
+.middle .middle-title {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 84px;
+  width: 660px;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 200px;
+}
+.middle-subtitle {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  width: 640px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 200px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.8;
+}
+.btn {
+  padding: 17px 20px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  background-color: #ff4d01;
+  border: none;
+  border-radius: ;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  margin: 10px;
+}
+.btn:hover {
+  background-color: #34343499;
+  border: #ffff currentColor;
+}
+.middle__texts {
+  width: 1196px;
+}
+.img {
+  margin: 40px;
+}
+
+.about__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 144px;
+}
+.about-titles {
+  margin-left: 73px;
+}
+.about-title {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  width: 105px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: #ff4d01;
+}
+.about-subtitle {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 62px;
+  width: 522px;
+  margin-top: 10px;
+  color: #191919;
+}
+.about-text {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  width: 589px;
+  margin-top: 19px;
+  margin-bottom: 50px;
+  color: #605e5d;
+}
+.btns {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  padding: 20px 30px;
+  background-color: #ffffff;
+  border-width: 2px;
+  color: #191919;
+  margin: 10px;
+}
+.services__our {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 300px;
+  margin-top: 270px;
+}
+.services-title {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  width: 149px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: #ff4d01;
+}
+.services-subtitle {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 62px;
+  width: 416px;
+  margin-top: 15px;
+  color: #191919;
+}
+
+.btns:hover {
+  background-color: #ff4d01;
+  border: none;
+  opacity: 0.8;
+}
+.boxs{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+.box {
+  width: 310px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
